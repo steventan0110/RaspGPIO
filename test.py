@@ -21,7 +21,7 @@ def main():
     while (True):
         if (cpu_temp > 40) or (gpu_temp > 40):
            GPIO.output(LED1, True) 
-        pStatus(Button)
+        #pStatus(Button)
         GPIO.output(LED,True)
         time.sleep(0.5)
         GPIO.output(LED,False)        
